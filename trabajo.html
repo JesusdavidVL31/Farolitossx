@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farolitos - Ilumina tu Navidad</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            text-align: center;
+            padding: 1em 0;
+            transition: transform 0.3s, background-color 0.3s;
+            background-color: transparent;
+            position: relative;
+        }
+
+        header img {
+            width: auto;
+            height: 1em;
+            object-fit: cover;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        nav {
+            background-color: #d44;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 1em;
+            display: block;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+            color: #c00;
+        }
+
+        section {
+            padding: 2em;
+            display: none;
+        }
+
+        h2 {
+            color: #c00;
+        }
+
+        section:target {
+            display: block;
+        }
+
+        /* Estilos adicionales para la sección de compra */
+        section#compra {
+            text-align: center;
+        }
+
+        section#compra .imagenes {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        section#compra .imagenes img {
+            width: 150px;
+            border: 1px solid #ccc;
+        }
+
+        section#compra button {
+            padding: 10px;
+            background-color: #c00;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        section#compra button:hover {
+            background-color: #900;
+        }
+
+        /* Estilos adicionales para la sección de inicio */
+        section#inicio {
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            background: url('https://www.gratistodo.com/wp-content/uploads/2016/11/navidad-fondos-10.jpg') center/cover fixed;
+        }
+
+        section#inicio:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.gratistodo.com/wp-content/uploads/2016/11/navidad-fondos-10.jpg') center/cover fixed;
+            filter: blur(10px);
+            transition: filter 0.3s ease;
+        }
+
+        section#inicio .cuadro-imagen {
+            margin-top: 2000px;
+            position: relative;
+            z-index: 1;
+        }
+
+        section#inicio .cuadro-imagen img {
+            width: 200px;
+            border: 1px solid #ccc;
+            position: relative;
+            z-index: 2;
+        }
+
+        section#inicio .cuadro-imagen p {
+            margin-top: 10px;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        section#inicio:hover .cuadro-imagen p {
+            color: #fff;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="" alt="">
+        <h1>Farolitos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#tradicion">Tradición</a></li>
+            <li><a href="#compra">Compra</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>¡Ilumina tu Navidad con Farolitos!</h2>
+        <p>Bienvenido a nuestro mundo de magia navideña. Descubre la belleza y tradición de los farolitos, la luz que ilumina la temporada festiva.</p>
+        <div class="cuadro-imagen">
+            <img src="">
+            <p></p>
+        </div>
+    </section>
+
+    <section id="tradicion">
+        <h2>Tradición de los Farolitos</h2>
+        <div class="tradicion-container">
+            <div class="tradicion-img-container">
+                <img class="tradicion-img" src="https://www.aldia.co/sites/default/files/styles/desktop_x1_940x529/public/detalle_tradicionfarolesotizamb.jpg?itok=7gGzhcbx" alt="Proceso de Tradición">
+            </div>
+            <p class="tradicion-texto">Con la celebración  del día de la Inmaculada Concepción de la Virgen María, se prenden las llamadas fiestas de velitas que iluminan todos los rincones del Departamento. Con el arraigo de estas fiestas los faroles hechos en madera por nuestros artesanos para mantener vivo el fuego de las velas, han servido para darle mayor colorido a la festividad.
+          El 7 de diciembre en Colombia, especialmente en la Región de la Costa Caribe, se celebra la tradicional "Noche de las Velitas" o "Día de las Velitas". Esta festividad marca el inicio de las celebraciones navideñas en el país y es una de las tradiciones más emblemáticas de la temporada.
+
+Durante la Noche de las Velitas, las personas decoran sus hogares con farolitos, velas y luces, creando hermosas iluminaciones que llenan las calles y los espacios públicos de un ambiente festivo. Esta celebración tiene un significado religioso, ya que coincide con la festividad de la Inmaculada Concepción de la Virgen María.
+
+Las familias se reúnen para encender velas y farolitos, rezar, compartir comidas especiales y disfrutar de la compañía de sus seres queridos. Es una ocasión llena de alegría y unión, donde las comunidades se unen para dar la bienvenida a la temporada navideña.
+
+Cada región de Colombia puede tener variaciones en la forma en que se celebra la Noche de las Velitas, pero en la Costa Caribe, esta festividad es especialmente vibrante y llena de color. Las playas y plazas se iluminan con la luz de las velas, y la música y la danza tradicional también forman parte de la celebración.</p>
+        </div>
+    </section>
+
+    <section id="compra">
+        <h2>Compra tu Farolito Navideño</h2>
+        <p>Lleva la magia de la Navidad a tu hogar con nuestros hermosos farolitos. Ilumina tus noches y crea recuerdos inolvidables con nuestros productos navideños.</p>
+        <div class="imagenes">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_885252-MCO72464171626_102023-O.webp" alt="Farolito 1">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_923162-MCO52417144292_112022-O.webp" alt="Farolito 2">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_871006-MCO72809488786_112023-O.webp" alt="Farolito 3">
+        </div>
+        <button type="button" onclick="mostrarOpcionCompra(1)">Añadir al Carrito</button>
+    </section>
+
+    <section id="equipo">
+        <h2>Nuestro Equipo</h2>
+        <p>Conoce al equipo apasionado que trabaja para llevar la magia navideña a tu hogar. Nos dedicamos a crear productos que llenen tus celebraciones de alegría y calidez.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte. Ponte en contacto con nosotros a través de nuestro correo electrónico <a href="mailto:jvlejarde@gmail.com">correo@gmail.com</a>.</p>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll("nav a");
+            const header = document.querySelector("header");
+
+            document.body.addEventListener("mouseenter", function () {
+                header.style.backgroundColor = "blue";
+            });
+
+            document.body.addEventListener("mouseleave", function () {
+                header.style.backgroundColor = "#333";
+            });
+
+            navLinks.forEach(link => {
+                link.style.transition = "background-color 0.3s, color 0.3s";
+
+                link.addEventListener("mouseenter", function () {
+                    this.style.backgroundColor = "white";
+                    this.style.color = "black";
+                });
+
+                link.addEventListener("mouseleave", function () {
+                    this.style.backgroundColor = "#444";
+                    this.style.color = "white";
+                });
+            });
+
+            iniciarAnimacionNieve();
+        });
+
+        function iniciarAnimacionNieve() {
+            particlesJS('inicio', {
+                particles: {
+                    // Configuración de partículas...
+                },
+                interactivity: {
+                    // Configuración de interactividad...
+                },
+                retina_detect: true
+            });
+        }
+
+        function añadirAlCarrito() {
+            var imagenInput = document.getElementById('imagen');
+            var mensaje = document.createElement('p');
+            mensaje.style.marginTop = '10px';
+
+            if (imagenInput.files.length > 0) {
+                var imagen = imagenInput.files[0];
+
+                // Lógica adicional aquí, por ejemplo, enviar la imagen a un servidor.
+
+                mensaje.textContent = 'Producto añadido al carrito';
+                mensaje.style.color = 'green';
+            } else {
+                mensaje.textContent = 'Por favor, selecciona una imagen antes de añadir al carrito.';
+                mensaje.style.color = 'red';
+            }
+
+            var formulario = document.getElementById('formCompra');
+            formulario.parentNode.insertBefore(mensaje, formulario.nextSibling);
+        }
+    </script>
+</body>
+</html>
